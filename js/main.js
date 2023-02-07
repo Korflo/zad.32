@@ -1,0 +1,29 @@
+// 1. Stwórz dokument HTML. Stwórz plik main.js w odpowiednim folderze i podepnij go pod plik HTML, a w nim dwie zmienne:
+
+// let num1 = 2;
+// let num2 = 5;
+// 2. Następnie napisz funkcję, która pobiera te dwie zmienne jako parametry.
+
+// 3. Funkcja zwraca większą liczbę.
+
+// Następnie wynik działania funkcji wyświetl w konsoli.
+
+// Plik wgraj do repozytorium zdalnego i podeślij link do sprawdzenia.
+
+let a = 2;
+let b = 5;
+
+function number(jestemPusty1, jestemPusty2) {
+  let result = Math.max(jestemPusty1, jestemPusty2);
+  return result;
+}
+console.log(number());
+// Expected output: 3
+
+console.log(Math.max(-1, -3, -2));
+// Expected output: -1
+
+const array1 = [1, 3, 2];
+
+console.log(Math.max(...array1));
+// Expected output: 3
