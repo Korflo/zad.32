@@ -13,17 +13,8 @@
 let a = 2;
 let b = 5;
 
-function number(jestemPusty1, jestemPusty2) {
-  let result = Math.max(jestemPusty1, jestemPusty2);
+function number(num1,num2) {
+  let result = Math.max(num1,num2);
   return result;
 }
-console.log(number());
-// Expected output: 3
-
-console.log(Math.max(-1, -3, -2));
-// Expected output: -1
-
-const array1 = [1, 3, 2];
-
-console.log(Math.max(...array1));
-// Expected output: 3
+console.log(number(a,b));
